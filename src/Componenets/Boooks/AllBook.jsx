@@ -36,16 +36,11 @@ export default function AllBook() {
     wishListBooks(id);
   }
   
-  
-  
-  
   return (
     
     <>
     <h2 className='container text-4xl'>Total Read Books: {}</h2>
-    {
-      // console.log(readBook)
-    }
+    
     <ToastContainer />
     
     <section className='pb-32 pt-2'>

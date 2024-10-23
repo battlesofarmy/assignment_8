@@ -38,9 +38,9 @@ export default function AllBook() {
   
   return (
     
-    <>
+    <> 
     <ToastContainer />
-    
+
     <h2 className='container text-4xl'>Total Read Books: {}</h2>
     
     
@@ -67,7 +67,6 @@ export default function AllBook() {
                 </>
               ))
             }
-                {/* <button className="tag mr-2">Young Adult</button> */}
             </p>
             <hr />
 
